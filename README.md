@@ -1,7 +1,7 @@
 # Code Description
 This repository contains a MATLAB implementation of numerical quadrature techniques, including the Monte Carlo method, for approximating definite integrals of non-analytically integrable functions
 
-Given a function f(x) defined over an interval [a,b], the algorithm uses random sampling to estimate:
+Given a function \exp\left(-\frac{x^2}{2}\right) defined over an interval [a,b], the algorithm uses random sampling to estimate:
 
 $\int_a^b f(x)\,dx$
 
