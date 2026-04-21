@@ -3,13 +3,7 @@ This repository contains a MATLAB implementation of numerical quadrature techniq
 
 Given a function f(x) defined over an interval [a,b], the algorithm discretizes the domain into subintervals and applies numerical schemes to estimate:
 
-∫
-a
-b
-	​
-
-f(x)dx
-
+$\int_a^b f(x)\,dx$
 Key features:
 
 Supports user-defined functions
