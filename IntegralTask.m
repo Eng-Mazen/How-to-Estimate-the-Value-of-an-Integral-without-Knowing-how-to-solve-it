@@ -20,7 +20,7 @@ for epoch = 1:noEpochs
     sum = sum + y;    
     end
 end
-estimated_val = (sum / noEpochs) * (b - a);
+estimated_val = (sum / (noEpochs - repeated)) * (b - a);
 real_val = 0.3976897454233514; % Taking from "Integral Calculator" website
 err = (abs(real_val - estimated_val)) * 100;
 fprintf(['Integral Estimated Value = ' num2str(estimated_val) ' Number of Repeated Values = ' num2str(repeated)])
