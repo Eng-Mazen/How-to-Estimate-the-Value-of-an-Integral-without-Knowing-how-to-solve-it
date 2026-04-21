@@ -1,2 +1,18 @@
-# How-to-Estimate-the-Value-of-an-Integral-without-Knowing-how-to-solve-it
-MATLAB implementation for numerical evaluation of definite integrals of functions without analytical solutions. The code approximates ∫f(x)dx over a given interval using standard numerical integration methods with adjustable parameters
+# Code Description
+This repository contains a MATLAB implementation of numerical quadrature techniques for approximating definite integrals of non-analytically integrable functions.
+
+Given a function f(x) defined over an interval [a,b], the algorithm discretizes the domain into subintervals and applies numerical schemes to estimate:
+
+∫
+a
+b
+	​
+
+f(x)dx
+
+Key features:
+
+Supports user-defined functions
+Adjustable step size / number of subintervals
+Emphasis on numerical stability and convergence
+Modular structure for extending additional integration methods
