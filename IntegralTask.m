@@ -7,7 +7,7 @@ a = 1 ; b = 20;
 % "outputs of very large number of x-values applied in function" which must
 % be not duplicated
 noEpochs = input("Enter the no. Generated Numbers: ");
-val_list = zeros([1,1000]);
+val_list = zeros([1,noEpochs]);
 sum = 0;
 repeated = 0;
 for epoch = 1:noEpochs
